@@ -46,6 +46,42 @@ body{
     margin-bottom: 8px;
 }
 
+.row:where(.column, button){
+    width: calc(100% /2 -12px);
+}
+
+.options .select-box{
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #0369a1a1;
+}
+
+.select-box select{
+    background-color: #0369a1;
+    color: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    appearance: none;
+    background-image: white;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 5.3em;
+}
+
+.options .palette{
+    margin-left: 60px;
+}
+
+.palette input{
+    height: 41px;
+    width: calc(100% /2-20px);
+}
+
+.palette input:where(.column, button){
+    width: calc(100% /2 -12px);
+}
 
 
 
